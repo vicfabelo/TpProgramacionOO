@@ -1,0 +1,15 @@
+# Compilación
+target/
+out/
+*.class
+
+# IntelliJ
+.idea/
+*.iml
+
+# Datos generados al ejecutar (se recrean solos con los datos de prueba)
+datos/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
