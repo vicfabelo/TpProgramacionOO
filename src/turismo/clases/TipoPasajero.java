@@ -1,21 +1,6 @@
 package turismo.clases;
 
-/**
- * Categorías de pasajero para cálculo de tarifas y descuentos.
- */
+/** Tipo declarado del pasajero. La edad real se usa además para los menores (ver Pasajero). */
 public enum TipoPasajero {
-    ADULTO(1.0),
-    MENOR_12(0.60),
-    MENOR_3(0.0),
-    JUBILADO(0.90);
-
-    private final double factorTarifa;
-
-    TipoPasajero(double factorTarifa) {
-        this.factorTarifa = factorTarifa;
-    }
-
-    public double getFactorTarifa() {
-        return factorTarifa;
-    }
+    ADULTO, MENOR, JUBILADO
 }
