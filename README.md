@@ -10,7 +10,7 @@ Aplicación de escritorio en Java (interfaz gráfica Swing) para la agencia "Rum
 |---|---|
 | Núñez, Manuel | 1138585 |
 | Vasquez, Victoria | 1218864 |
-| Gonzalez Miel, Francisco Augusto | |
+| Giammarino, Francisco | 1160277 |
 
 Docente: León, María Ángela.
 
@@ -41,7 +41,7 @@ Los datos se guardan en la carpeta `datos/`, dentro de la carpeta desde donde se
 - **IntelliJ:** clic derecho sobre la carpeta `test` → *Run 'All Tests'*.
 - **Maven:** `mvn test`
 
-Son 77 pruebas unitarias de la lógica de negocio (JUnit 4). El plan de pruebas funcionales y sus resultados están en el informe final.
+Son 77 pruebas unitarias de la lógica de negocio (JUnit 4). El plan de pruebas funcionales y sus resultados están en [`docs/Plan_de_Pruebas.md`](docs/Plan_de_Pruebas.md) y en el informe final.
 
 ## Datos de prueba
 
@@ -65,6 +65,8 @@ La primera vez que se ejecuta, el sistema carga datos de ejemplo con fechas calc
 ## Estructura del repositorio
 
 ```
+/docs            enunciado, documento de diseño (Etapa 1), informe final (Etapa 2) y plan de pruebas
+/docs/uml        diagramas en StarUML (.mdj) y exportados como imagen (.png)
 /src/turismo     código fuente
     interfaces/      Promocion, PoliticaCancelacion, RepositorioAgencia
     clases/          modelo del dominio y enumeraciones
@@ -82,4 +84,4 @@ pom.xml          configuración de Maven (Java 17, JUnit 4)
 - **SOLID:** responsabilidad única (SRP), abierto/cerrado (OCP) e inversión de dependencias (DIP).
 - **GRASP:** Experto en información, Creador, Controlador y Polimorfismo.
 
-La justificación de cada uno está en el documento de diseño de la Etapa 1, sección 5. Los cambios respecto del diseño, las dificultades, la distribución de tareas y la reflexión del grupo están en el informe final.
+La justificación de cada uno está en el documento de diseño (`docs/Documento_Diseno_Etapa1.pdf`, sección 5). Los cambios respecto del diseño, las dificultades, la distribución de tareas y la reflexión del grupo están en el informe final (`docs/TPO-POO-Entrega2.pdf`).
